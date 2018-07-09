@@ -38,9 +38,13 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  navbar-clr:rgb(182, 8, 8)
 );
 
+$popover-md-width: 330px;
+$popover-ios-width: 400px;
+$popover-wp-width: 400px;
 
 // App iOS Variables
 // --------------------------------------------------

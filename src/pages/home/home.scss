@@ -1,3 +1,118 @@
 page-home {
+    .masters{
+        background-image: url("https://thumbs.dreamstime.com/b/collage-displaying-rich-cultural-heritage-india-vector-illustration-75632523.jpg");
+        background-color: rgba(255, 243, 209, 0.856);
+        opacity:.9;
+    }
+
+    button{
+        margin-top:20px;
+        margin-left:30px;
+        background:#EAB543;
+        opacity:.9;
+       
+        color:black;
+        // box-shadow:5px 9px rgb(10, 131, 103);
+    
+        position:relative;
+        height:50px;
+        font-size:2em;
+        padding:0 2em;
+        cursor:pointer;
+        outline:3px solid black;
+        // outline:3px solid rgb(19, 179, 139);;
+      }
+      img{
+        margin-top: -40px;
+        width:100px;
+        height:101px;
+        
+      }
+      
+    * {
+        box-sizing: border-box;
+      }
+      
+   .container{
+       margin-top: -15px;
+     
+       background-color:transparent;
+       width:450px;
+       height:100px;
+       margin-left: -20px;
+   
+      
+   }
+      
+      article {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+      }
+      
+      h1 {
+        font-size: 1.75rem;
+        // margin: 0 0 0.75rem 0;
+      }
+      
+      /* Pattern styles */
+      div {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+    
+     
+      
+       
+      }
+      
+      .left-half {
+      
+        background:rgb(233, 115, 6);
+        width:50%;
+        height:28%;
+       
+          margin-left:-16px;
+          opacity:.9;
+         
+        
+      }
+      
+      .right-half {
+      
+        width:54%;
+        background:rgb(240, 157, 49);
+     
+        height:28%;
+        // margin-right:-16px;
+      margin-right: 0px;
+      opacity:.9;
+    
+     
+     
+      }
+      .left-half2 {
+        background: rgb(240, 157, 49);
+        width:50%;
+        height:28%;
+       
+          margin-left:-16px;
+          opacity:.9;
+         
+        
+      }
+      
+      .right-half2 {
+        width:54%;
+        background:rgb(233, 115, 6);
+        height:28%;
+        // margin-right:-16px;
+      margin-right: 0px;
+      opacity:.9;
+     
+     
+      }
 
 }

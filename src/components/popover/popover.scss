@@ -1,0 +1,35 @@
+popover {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .modal{
+        margin-top:-20px;
+       
+        height:526px;
+        background-color: rgb(255, 255, 255);
+        }
+    
+        .box1{
+
+            width:333px;
+            height:167px;
+            background-color:rgb(124, 115, 115);
+           
+        }
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 380px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+
+}
